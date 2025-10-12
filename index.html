@@ -74,12 +74,18 @@
             <div class="home-content">
                 <div class="profile-section">
                     <div class="profile-image">
-                        <img src="profile-pic.svg" alt="Deepak G Profile Picture" id="profile-img">
-                        <div class="image-placeholder">
-                            <i class="fas fa-user"></i>
-                            <p>Profile Picture</p>
-                        </div>
-                    </div>
+  <img 
+    src="https://res.cloudinary.com/dlfitvhc0/image/upload/v1760244175/WhatsApp_Image_2025-10-12_at_10.11.10_AM_tae0zf.jpg" 
+    alt="Deepak G Profile Picture" 
+    id="profile-img"
+    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+  >
+  <div class="image-placeholder" style="display: none;">
+    <i class="fas fa-user"></i>
+    <p>Profile Picture</p>
+  </div>
+</div>
+
                 </div>
                 <div class="home-text">
                     <h1 class="home-title">Hi, I'm <span class="highlight">Deepak G</span></h1>
@@ -199,16 +205,11 @@
                             <span class="tech-tag">Java</span>
                         </div>
                         <div class="project-links">
-  <a href="https://github.com/Deepakgunasekaran07/StudentManagement" 
-     class="project-link" 
-     target="_blank" 
-     rel="noopener noreferrer">
-    <i class="fab fa-github"></i> View Code
-  </a>
-</div>
-
+                            <a href="https://github.com/Deepakgunasekaran07/StudentManagement" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                        </div>
                     </div>
                 </div>
+
                 <div class="project-card">
                     <div class="project-image"><i class="fas fa-heart"></i></div>
                     <div class="project-content">
@@ -323,8 +324,27 @@
                     <h3>Contact Information</h3>
                     <div class="contact-items">
                         <div class="contact-item"><i class="fas fa-phone"></i><div><h4>Phone</h4><p>+91 7418592586</p></div></div>
-                        <div class="contact-item"><i class="fas fa-envelope"></i><div><h4>Email</h4><p>deepakgunasekaran07@gmail.com</p></div></div>
-                        <div class="contact-item"><i class="fab fa-linkedin"></i><div><h4>LinkedIn</h4><p>Connect with me on LinkedIn</p></div></div>
+                        <div class="contact-item">
+  <a href="mailto:deepakgunasekaran07@gmail.com" 
+     style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+    <i class="fas fa-envelope"></i>
+    <div>
+      <h4>Email</h4>
+      <p>deepakgunasekaran07@gmail.com</p>
+    </div>
+  </a>
+</div>
+
+                        <div class="contact-item">
+  <a href="https://www.linkedin.com/in/deepakgunasekarn" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; text-decoration: none; color: inherit;">
+    <i class="fab fa-linkedin"></i>
+    <div>
+      <h4>LinkedIn</h4>
+      <p>Connect with me on LinkedIn</p>
+    </div>
+  </a>
+</div>
+
                         <div class="contact-item"><i class="fas fa-map-marker-alt"></i><div><h4>Location</h4><p>Chennai, India</p></div></div>
                     </div>
                 </div>
