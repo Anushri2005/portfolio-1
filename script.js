@@ -351,12 +351,12 @@ document.addEventListener('DOMContentLoaded', () => {
             let url = '#';
             
             if (platform.includes('linkedin')) {
-                url = 'https://linkedin.com/in/deepak-g'; // Replace with actual LinkedIn URL
-            } else if (platform.includes('github')) {
-                url = 'https://github.com/deepak-g'; // Replace with actual GitHub URL
-            } else if (platform.includes('twitter')) {
-                url = 'https://twitter.com/deepak-g'; // Replace with actual Twitter URL
-            }
+        // LinkedIn URL from your resume
+        url = 'https://linkedin.com/in/abinaya-g-62261b300';
+    } else if (platform.includes('github')) {
+        // GitHub URL from your resume (Note: I've added the missing 'H' to match your profile)
+        url = 'https://github.com/AbinayaG025';
+    }
             
             window.open(url, '_blank');
         });
