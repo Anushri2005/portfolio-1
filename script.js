@@ -332,10 +332,10 @@ document.addEventListener('DOMContentLoaded', () => {
     
     projectLinks.forEach(link => {
         link.addEventListener('click', (e) => {
-            e.preventDefault();
+           // e.preventDefault();
             // You can replace these with actual GitHub repository URLs
-            const projectName = link.closest('.project-card').querySelector('h3').textContent;
-            alert(`${projectName} - GitHub link will be added soon!`);
+            //const projectName = link.closest('.project-card').querySelector('h3').textContent;
+            //alert(`${projectName} - GitHub link will be added soon!`);
         });
     });
 });
@@ -352,10 +352,10 @@ document.addEventListener('DOMContentLoaded', () => {
             
             if (platform.includes('linkedin')) {
         // LinkedIn URL from your resume
-        url = 'https://linkedin.com/in/abinaya-g-62261b300';
+        url = 'https://www.linkedin.com/in/anushrisreenivas/';
     } else if (platform.includes('github')) {
         // GitHub URL from your resume (Note: I've added the missing 'H' to match your profile)
-        url = 'https://github.com/AbinayaG025';
+        url = 'https://github.com/Anushri2005';
     }
             
             window.open(url, '_blank');
