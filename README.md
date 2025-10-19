@@ -1,4 +1,4 @@
-# Deepak G - Portfolio Website
+#  Portfolio Website
 
 A modern, responsive portfolio website showcasing my skills as a Computer Science and Engineering student with expertise in software development, web development, and machine learning.
 
@@ -111,16 +111,4 @@ Update the project links in the Portfolio section:
 - Edge (latest)
 - Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 📞 Contact
 
-- **Phone**: +91 7418592586
-- **Email**: deepakgunasekaran07@gmail.com
-- **Location**: Chennai, India
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-**Built with ❤️ by Deepak G**
